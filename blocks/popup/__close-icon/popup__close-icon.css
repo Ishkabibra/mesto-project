@@ -1,0 +1,42 @@
+.popup__close-icon {
+    position: absolute;
+    left: 430px;
+    right: 0;
+    top: -40px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.popup__close-icon:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:520px) {
+    .popup__close-icon {
+        left: 400px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .popup__close-icon {
+        left: 395px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .popup__close-icon {
+        left: 300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .popup__close-icon {
+        left: 250px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .popup__close-icon {
+        left: 250px;
+    }
+}
