@@ -1,9 +1,7 @@
 .popup__close-icon {
     position: absolute;
-    left: 430px;
-    right: 0;
+    left: 400px;
     top: -40px;
-    margin: auto;
     cursor: pointer;
 }
 

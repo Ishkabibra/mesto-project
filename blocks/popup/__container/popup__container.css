@@ -1,18 +1,16 @@
 .popup__container {
-    position: fixed;
+    position: relative;
     max-width: 430px;
     height: 356px;
     background-color: white;
     border-radius: 10px;
+    align-self: center;
     margin: auto;
-    left: 0;
-    right: 0;
-    top: 180px;
 }
 
 @media screen and (max-width:320px) {
     .popup__container {
-        position: absolute; 
+        position: relative; 
         max-width: 282px;
         height: 322px;
     }
