@@ -1,11 +1,12 @@
 .elements__item {
     background-color: white;
+    max-height: 361px;
     border-radius: 5px;
     border-radius:  10px 10px 10px 10px;
 }
 
 @media screen and (max-width:320px) {
     .elements__item:first-of-type {
-        margin-top: 53px;
+        margin-top: 40px;
     }
 }

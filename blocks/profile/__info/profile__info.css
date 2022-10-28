@@ -2,6 +2,7 @@
     color: white;
     margin: auto 0;
     margin-left: 30px;
+    max-width: 336px;
 }
 
 @media screen and (max-width:768px) {
@@ -10,9 +11,34 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .profile__info {
+        max-width: 270px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .profile__info {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .profile__info {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .profile__info {
+        max-width: 135px;
+    }
+}
+
 @media screen and (max-width:320px) {
     .profile__info {
         margin: 0;
+        max-width: 282px;
         text-align: center;
     }
 }

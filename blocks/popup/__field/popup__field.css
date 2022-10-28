@@ -1,19 +1,25 @@
 .popup__field {
-    max-width: 358px;
-    margin: auto 36px;
-    font-family: 'Inter';
+    width: 358px;
+    margin: 0 36px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     padding: 0;
-    padding-bottom: 13px;
+    padding-bottom: 9px;
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .popup__field:first-of-type {
     margin-bottom: 30px;
+}
+
+@media screen and (max-width:450px) {
+    .popup__field {
+        width: 270px;
+    }
 }
 
 @media screen and (max-width:320px) {

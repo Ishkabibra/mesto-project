@@ -1,6 +1,8 @@
 .elements__title {
     margin: 0;
-    font-family: 'Inter';
+    margin-top: -4px;
+    margin-left: 2px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -13,5 +15,13 @@
 @media screen and (max-width:600px) {
     .elements__title {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .elements__title {
+        margin-top: -6px;
+        margin-left: -2px;
+        font-size: 24px;
     }
 }

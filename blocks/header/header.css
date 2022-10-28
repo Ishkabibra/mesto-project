@@ -8,10 +8,11 @@
     padding-bottom: 40px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:930px) {
     .header {
-        margin: auto 30px;
+        margin: auto;
         margin-bottom: 30px;
+        padding-left: 36px;
     }
 }
 
@@ -22,5 +23,6 @@
         height: 56px;
         padding-left: 27px;
         margin-bottom: 40px;
+        padding-bottom: 0;
     }
 }

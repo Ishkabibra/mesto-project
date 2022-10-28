@@ -2,9 +2,15 @@
     /* width: 150px;
     height: 50px; */
     align-self: center;
-    border: 1px solid white;
-    padding: 14px 64px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 22px 74px;
     border-radius: 2px;
+    background-image: url(../../../images/add_button.svg);
+    background-size: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile__add-button:hover {
@@ -14,20 +20,22 @@
 
 @media screen and (max-width:500px) {
     .profile__add-button {
-        padding: 10px 44px;
+        padding: 15px 54px;
     }
 }
 
 @media screen and (max-width:440px) {
     .profile__add-button {
         margin-top: 15px;
-        padding: 10px 100px;
+        padding: 15px 145px;
+        background-size: 6%;
     }
 }
 
 @media screen and (max-width:320px) {
     .profile__add-button {
         /* margin: auto; */
-        padding: 17px 132px 17px 125px;
+        padding: 23px 138px;
+        width: 16px;
     }
 }
