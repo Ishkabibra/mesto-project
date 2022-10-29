@@ -1,7 +1,7 @@
 .header {
     position: relative;
     padding-top: 45px;
-    border-bottom: 1px solid #545454;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
     max-width: 880px;
     margin: auto;
     margin-bottom: 40px;
@@ -10,7 +10,6 @@
 
 @media screen and (max-width:930px) {
     .header {
-        margin: auto;
         margin-bottom: 30px;
         padding-left: 36px;
     }
@@ -20,9 +19,8 @@
     .header {
         margin: 0;
         max-width: 320px;
-        height: 56px;
         padding-left: 27px;
         margin-bottom: 40px;
-        padding-bottom: 0;
+        padding-bottom: 30px;
     }
 }

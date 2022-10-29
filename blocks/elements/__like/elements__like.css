@@ -1,11 +1,13 @@
 .elements__like {
-    background-image: url(../../../images/like.png);
+    background-image: url(../../../images/like.svg);
     width: 22px;
     background-repeat: no-repeat;
     background-position: center;
     padding-left: 5px;
     margin-bottom: 2px;
-    margin-right: 1px;
+    margin-right: 4px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .elements__like:hover {
@@ -15,12 +17,12 @@
 
 .elements__like:active {
     opacity: 1;
-    background-image: url(../../../images/like-active.png);
+    background-image: url(../../../images/like_-active.svg);
 }
 
 @media screen and (max-width:320px) {
     .elements__like {
-        margin-right: 3px;
-        margin-top: -3px;
+        margin-right: 5px;
+        margin-bottom: 8px;
     }
 }

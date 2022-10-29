@@ -1,7 +1,6 @@
 .popup__container {
     position: relative;
     max-width: 430px;
-    height: 330px;
     background-color: white;
     border-radius: 10px;
     align-self: center;
@@ -12,6 +11,5 @@
     .popup__container {
         position: relative; 
         max-width: 282px;
-        height: 322px;
     }
 }

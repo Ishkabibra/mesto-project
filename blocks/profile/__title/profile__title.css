@@ -22,9 +22,9 @@
 @media screen and (max-width:320px) {
     .profile__title {
         font-size: 27px;
-        line-height: 33px;
-        margin-bottom: -2px;
-        margin-left: 43px;
+        margin-top: 2px;
+        margin-left: 45px;
         margin-right: 10px;
+        margin-bottom: 0px;
     }
 }

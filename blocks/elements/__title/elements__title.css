@@ -1,7 +1,6 @@
 .elements__title {
     margin: 0;
-    margin-top: -4px;
-    margin-left: 2px;
+    /* margin-bottom: 5px; */
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -10,6 +9,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    border: 1px solid red;
 }
 
 @media screen and (max-width:600px) {
@@ -20,8 +20,8 @@
 
 @media screen and (max-width:320px) {
     .elements__title {
-        margin-top: -6px;
-        margin-left: -2px;
+        margin-bottom: 6px;
+        margin-right: 2px;
         font-size: 24px;
     }
 }
