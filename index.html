@@ -15,9 +15,21 @@
                 <button type="button" class="popup__close-icon"></button>
                 <h2 class="popup__title">Редактировать профиль</h2>
                 <form name="form-name" action="URL" class="popup__form">
-                    <input name="name" id="profile-name" type="text" placeholder="Жак-Ив Кусто" class="popup__field" >
-                    <input name="description" id="profile-description" type="text" placeholder="Исследователь океана" class="popup__field">
+                    <input name="name" id="profile-name" type="text" placeholder="Ваше имя" value="Жак-Ив Кусто" class="popup__fieldName" >
+                    <input name="description" id="profile-description" type="text" placeholder="Описание" value="Исследователь океана" class="popup__fieldDescription">
                     <button type="submit" class="popup__button">Сохранить</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="add">
+            <div class="add__container">
+                <button type="button" class="add__close-icon"></button>
+                <h2 class="add__title">Новое место</h2>
+                <form name="form-name" action="URL" class="add__form">
+                    <input name="name" id="add-name" type="text" placeholder="Название" class="add__fieldName" >
+                    <input name="description" id="add-link" type="text" placeholder="Ссылка на картинку" class="add__fieldLink">
+                    <button type="button" class="add__button">Создать</button>
                 </form>
             </div>
         </div>
@@ -43,6 +55,7 @@
 
             <section class="elements">
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Карачаевск</h3>
@@ -51,6 +64,7 @@
                 </div>
 
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/gora-elbrys.png" alt="Эльбрус" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Гора Эльбрус</h3>
@@ -59,6 +73,7 @@
                 </div>
 
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/dombay.png" alt="Домбай" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Домбай</h3>
@@ -67,6 +82,7 @@
                 </div>
 
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/gora-elbrys.png" alt="Эльбрус" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Гора Эльбрус</h3>
@@ -75,6 +91,7 @@
                 </div>
 
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/dombay.png" alt="Домбай" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Домбай</h3>
@@ -83,6 +100,7 @@
                 </div>
 
                 <div class="elements__item">
+                    <button type="button" class="elements__delete-button"></button>
                     <img src="./images/karachaevsk.jpg" alt="Карачаево" class="elements__image">
                     <div class="elements__container">
                         <h3 class="elements__title">Карачаево-Черкесия </h3>
@@ -95,4 +113,17 @@
                 © 2020 Mesto Russia
             </footer>
     </div>
+
+    <template id="item-template">
+        <div class="elements__item">
+            <button type="button" class="elements__delete-button"></button>
+            <img src="" alt="" class="elements__image">
+            <div class="elements__container">
+                <h3 class="elements__title"></h3>
+                <button type="button" class="elements__like"></button>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
 </body>
