@@ -10,9 +10,13 @@ const elements = document.querySelector('.elements')
 const saveButton = document.querySelector('.add__button')
 const card = document.querySelector('.elements__item')
 
-const profileName = document.querySelector('.popup__fieldName')
-const profileDescription = document.querySelector('.popup__fieldDescription')
+const profileName = document.querySelector('.profile__title')
+const profileDescription = document.querySelector('.profile__subtitle')
 const popupForm = document.querySelector('.popup__form')
+const savePopup = document.querySelector('.popup__button')
+const nameInput = document.querySelector('.popup__fieldName')
+const descriptionInput = document.querySelector('.popup__fieldDescription')
+
 
 const initialCards = [
     {
@@ -58,16 +62,19 @@ closeAddButton.addEventListener('click', function(){
     add.classList.remove('add_oppened');
 });
 
-let nameInput = document.querySelector('#profile-name');
-let descriptionInput = document.querySelector('#profile-description');
-popupForm.addEventListener('submit', formSubmit);
-function formSubmit(evt) {
+function saveProfile() {
+    profileName.textContent = nameInput.value;
+    profileDescription.textContent = descriptionInput.value;
+}
+
+popupForm.addEventListener('submit', handleFormSubmitProfile);
+function handleFormSubmitProfile(evt) {
     evt.preventDefault();
     profileName.textContent = nameInput.value;
     profileDescription.textContent = descriptionInput.value;
     popup.classList.remove('popup_oppened');
 }
-
+savePopup.addEventListener('click', () => saveProfile(popupForm));
 
 function addCard(cardNameValue, cardLinkValue) {
     const itemTemplate = document.querySelector('#item-template').content;

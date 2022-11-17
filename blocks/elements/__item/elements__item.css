@@ -3,6 +3,7 @@
     border-radius:  10px 10px 10px 10px;
     box-sizing: border-box;
     position: relative;
+    justify-content: space-between;
 }
 
 @media screen and (max-width:320px) {
