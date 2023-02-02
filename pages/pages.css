@@ -17,16 +17,20 @@
 @import url(../blocks/popup/__fieldDescription/popup__fieldDescription.css);
 @import url(../blocks/popup/__fieldName/popup__fieldName.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
+@import url(../blocks/popup/_type/_bigimage/popup_type_bigimage.css);
 
 @import url(../blocks/add/add.css);
-@import url(../blocks/add/_oppened/add_oppened.css);
 @import url(../blocks/add/__container/add__container.css);
 @import url(../blocks/add/__title/add__title.css);
 @import url(../blocks/add/__form/add__form.css);
-@import url(../blocks/add/__close-icon/add__close-icon.css);
 @import url(../blocks/add/__fieldName/add__fieldName.css);
 @import url(../blocks/add/__fieldLink/add__fieldLink.css);
 @import url(../blocks/add/__button/add__button.css);
+
+@import url(../blocks/bigimage/bigimage.css);
+@import url(../blocks/bigimage/__container/bigimage__container.css);
+@import url(../blocks/bigimage/__image/bigimage__image.css);
+@import url(../blocks/bigimage/__title/bigimage__title.css);
 
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__container/profile__container.css);

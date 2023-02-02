@@ -11,6 +11,7 @@
     background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
     background-position: center;
+    transition: .3s;
 }
 
 .profile__add-button:hover {
