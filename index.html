@@ -14,22 +14,22 @@
             <div class="popup__container">
                 <button type="button" class="popup__close-icon"></button>
                 <h2 class="popup__title">Редактировать профиль</h2>
-                <form name="form-name" action="URL" class="popup__form">
-                    <input name="name" id="profile-name" type="text" placeholder="Ваше имя" value="Жак-Ив Кусто" class="popup__fieldName" >
-                    <input name="description" id="profile-description" type="text" placeholder="Описание" value="Исследователь океана" class="popup__fieldDescription">
+                <form name="form-name_profile" action="URL" class="popup__form">
+                    <input name="name_profile" id="profile-name" type="text" placeholder="Ваше имя" value="" class="popup__field" required>
+                    <input name="description_profile" id="profile-description" type="text" placeholder="Описание" value="" class="popup__field" required>
                     <button type="submit" class="popup__button">Сохранить</button>
                 </form>
             </div>
         </div>
 
         <div class="popup popup_type_add ">
-            <div class="add__container">
+            <div class="popup__container">
                 <button type="button" class="popup__close-icon"></button>
-                <h2 class="add__title">Новое место</h2>
-                <form name="form-name" action="URL" class="add__form">
-                    <input name="name" id="add-name" type="text" placeholder="Название" class="add__fieldName" >
-                    <input name="description" id="add-link" type="text" placeholder="Ссылка на картинку" class="add__fieldLink">
-                    <button type="submit" class="add__button">Создать</button>
+                <h2 class="popup__title">Новое место</h2>
+                <form name="form-name_add" action="URL" class="popup__form">
+                    <input name="name_add" id="add-name" type="text" placeholder="Название" class="popup__field" required>
+                    <input name="description_add" id="add-link" type="text" placeholder="Ссылка на картинку" class="popup__field" required>
+                    <button type="submit" class="popup__button">Создать</button>
                 </form>
             </div>
         </div>

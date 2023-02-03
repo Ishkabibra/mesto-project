@@ -1,4 +1,4 @@
-.popup__fieldName {
+.popup__field {
     width: 358px;
     margin: 0 36px;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -12,18 +12,18 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.popup__fieldName:first-of-type {
+.popup__field:first-of-type {
     margin-bottom: 30px;
 }
 
 @media screen and (max-width:450px) {
-    .popup__fieldName {
+    .popup__field {
         width: 270px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .popup__fieldName{
+    .popup__field{
         width: 234px;
         margin: auto 22px;
     }
